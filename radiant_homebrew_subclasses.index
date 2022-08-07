@@ -3,7 +3,7 @@
   <info>
     <name>Radiant Homebrew</name>
     <update version="1.0">
-      <file name="radiant_homebrew.index" url="https://raw.githubusercontent.com/DavoReds/Radiant-Citadel-Homebrew/main/radiant_homebrew.index" />
+      <file name="radiant_homebrew_subclasses.index" url="https://raw.githubusercontent.com/DavoReds/Radiant-Citadel-Homebrew/main/radiant_homebrew_subclasses.index" />
     </update>
   </info>
   <files>
