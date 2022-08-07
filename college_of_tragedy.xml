@@ -4,7 +4,7 @@
     <name>College of Tragedy</name>
     <description>The College of Tragedy from Tal'Dorei Campaign Setting Reborn</description>
     <author>Critical Role</author>
-    <update version="0.0.1">
+    <update version="1.0">
       <file name="college_of_tragedy.xml" url="https://raw.githubusercontent.com/DavoReds/Radiant-Citadel-Homebrew/main/college_of_tragedy.xml"/>
     </update>
   </info>
