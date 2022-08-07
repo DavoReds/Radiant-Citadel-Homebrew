@@ -5,7 +5,7 @@
     <description>The College of Tragedy from Tal'Dorei Campaign Setting Reborn</description>
     <author>Critical Role</author>
     <update version="0.0.1">
-      <file name="college_of_tragedy.xml"/>
+      <file name="college_of_tragedy.xml" url="https://raw.githubusercontent.com/DavoReds/Radiant-Citadel-Homebrew/main/college_of_tragedy.xml"/>
     </update>
   </info>
   <element name="College of Tragedy" type="Archetype" source="Tal'Dorei Campaign Setting Reborn" id="ID_CRIT_TLCSR_ARCHETYPE_COLLEGE_OF_TRAGEDY">
@@ -73,11 +73,11 @@
       <p class="indent">At 14th level, the critical hit range of this feature increases to 17–20.</p>
     </description>
     <sheet action="Reaction" usage="{{bardic-inspiration:count}}">
-      <description>You learn to weave a magical narrative that draws out the fatal arrogance of your foes. When a creature scores a critical hit against you or an ally within 60 feet of you that you can see, you can use your reaction and expend one use of your Bardic Inspiration to target the attacking creature and evoke the story of their downfall. For 1 minute or until the target suffers a critical hit, any weapon attack against the target scores a critical hit on a roll of {{tale-hubris:range}}.</description>
+      <description>You learn to weave a magical narrative that draws out the fatal arrogance of your foes. When a creature scores a critical hit against you or an ally within 60 feet of you that you can see, you can use your reaction and expend one use of your Bardic Inspiration to target the attacking creature and evoke the story of their downfall. For 1 minute or until the target suffers a critical hit, any weapon attack against the target scores a critical hit on a roll of {{tale-hubris:range}}–20.</description>
     </sheet>
     <rules>
-        <stat name="tale-hubris:range" value="18—20" />
-        <stat name="tale-hubris:range" value="17—20" level="14" />
+        <stat name="tale-hubris:range" value="18" bonus="tale of hubris"/>
+        <stat name="tale-hubris:range" value="-1" level="14" />
     </rules>
   </element>
 
@@ -98,7 +98,7 @@
         <li>The creature has a +4 bonus to AC.</li>
         <li>It has advantage on attack rolls and saving throws.</li>
         <li>When the creature hits a target with a weapon attack or spell attack, that target gets an extra 1d10 radiant damage.</li>
-        <li>Any weapon attacks against the creature scores a hit on a roll of 18—20.</li>
+        <li>Any weapon attacks against the creature scores a hit on a roll of 18–20.</li>
       </ul>
       <p class="indent">When this effect ends, the creature immediately drops to 0 hit points and is dying. Once you use this feature, you can’t use it again until you finish a long rest.</p>
     </description>
@@ -109,7 +109,7 @@
             <li>The creature has a +4 bonus to AC.</li>
             <li>It has advantage on attack rolls and saving throws.</li>
             <li>When the creature hits a target with a weapon attack or spell attack, that target gets an extra 1d10 radiant damage.</li>
-            <li>Any weapon attacks against the creature scores a hit on a roll of 18—20.</li>
+            <li>Any weapon attacks against the creature scores a hit on a roll of 18–20.</li>
       </ul>
       </description>
     </sheet>
